@@ -1,3 +1,6 @@
+
+#Quantos passos seriam necessários para realizar uma busca linear pelo número 8 no array ordenado, [2, 4, 6, 8, 10, 12, 13]?
+
 def busca_linear_com_passos(arr, elemento):
     passos = 0  # Contador de passos
     

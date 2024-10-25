@@ -1,3 +1,9 @@
+#A seguinte função aceita um array de strings e retorna um novo array que contém apenas as strings que começam com o caractere "a". Use a Notação Big O para descrever a complexidade de tempo da função:
+
+
+#
+#
+
 import time
 import random
 
@@ -74,3 +80,5 @@ if __name__ == "__main__":
     array_ordenavel.cocktailShakerSort()
     
     print("Ordenação concluída.")
+
+# A complexidade de tempo permanece O(n²) no pior caso, pois ainda temos dois loops aninhados, mas, na prática, ele pode ser um pouco mais eficiente do que o Bubble Sort clássico em certos casos.

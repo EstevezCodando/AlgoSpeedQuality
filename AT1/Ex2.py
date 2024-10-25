@@ -1,3 +1,13 @@
+#Pegue um baralho de cartas: retire as 13 cartas de espadas, reserve o resto e embaralhe as cartas de espadas. Elabore um algoritmo para ordená-las por número sob as seguintes restrições:
+# Todas as cartas devem ser seguradas em uma mão. Esta é a "primeira" mão.
+# Inicialmente, as cartas embaralhadas estão todas empilhadas com as faces em uma direção, de modo que apenas uma carta seja visível.
+# Inicialmente, todas as cartas são seguradas entre o polegar e o indicador da primeira mão.
+# A carta visível na pilha pode ser retirada usando a outra mão e colocada entre quaisquer dedos da primeira mão. Ela só pode ser colocada na frente ou atrás das cartas na pilha de cartas entre esses dedos.
+# A outra mão pode segurar apenas uma carta por vez e deve colocá-la em algum lugar na primeira mão antes de pegar outra carta visível de uma das pilhas.
+# O algoritmo termina quando todas as cartas estão ordenadas em uma única pilha na mão.
+
+
+
 from typing import List
 # Funções para criar o Baralho Com cartas Embaralhadas
 class Carta:

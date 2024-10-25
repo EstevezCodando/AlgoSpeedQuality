@@ -1,3 +1,4 @@
+#A seguinte função aceita um array de strings e retorna um novo array que contém apenas as strings que começam com o caractere "a". 
 
 # Função fornecida
 def selectAStrings(array):
@@ -8,6 +9,9 @@ def selectAStrings(array):
             newArray.append(array[i])
 
     return newArray
+
+
+## Use a Notação Big O para descrever a complexidade de tempo da função:
 
 #A complexidade de tempo dessa função é O(n), 
 # pois o tempo de execução está crescendo linearmente com o tamanho do array de strings.

@@ -1,3 +1,5 @@
+#Quantos passos a busca binária levaria para o exemplo3?
+
 def busca_binaria_com_passos(arr, elemento):
     inicio = 0
     fim = len(arr) - 1
