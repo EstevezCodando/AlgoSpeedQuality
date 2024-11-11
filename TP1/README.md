@@ -1,5 +1,5 @@
 
-# Atividade 1: Implementações basicas em Estruturas de Dados e Algoritmos
+# Teste de Performance - TP1: Implementações basicas em Estruturas de Dados e Algoritmos
 
 ### Exercício 1: Busca Linear
 **Descrição:** Implementa uma busca linear para encontrar um elemento em uma lista.

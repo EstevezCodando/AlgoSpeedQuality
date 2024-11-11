@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos de Passos das Funções</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+            align-items: center;
+            margin: 20px;
+        }
+        
+        .descricao {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .variavel {
+            color: #007acc; 
+            font-weight: bold;
+        }
+
+        .conceito {
+            color: #e67300; 
+            font-weight: bold;
+        }
+
+        .grafico {
+            text-align: center;
+        }
+
+        .codigo {
+            font-family: monospace;
+            background-color: #f4f4f4;
+            padding: 5px;
+            display: block;
+            color: #d63384;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007acc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quantidade de Passos por Entrada</h1>
+
+    <!-- Função 1 - O(n) -->
+    <div class="container">
+        <div class="descricao">
+            <h2>Função 1 - O(n)</h2>
+            <p>Esta função realiza uma operação de loop que itera de <span class="variavel">0</span> até <span class="variavel">n - 1</span>.</p>
+            <p>Para cada iteração, uma operação de <span class="conceito">complexidade O(1)</span> é realizada.</p>
+            <p>Portanto, a complexidade total é <span class="conceito">O(n)</span>, pois o loop é executado <span class="variavel">n</span> vezes.</p>
+            <div class="codigo">
+                def funcao1(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;for i in range(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Iteração:", i)  # O(1) por iteração
+            </div>
+        </div>
+        <div class="grafico">
+            <img src="data:image/png;base64,{{ grafico1 }}" alt="Grafico Funcao 1">
+        </div>
+    </div>
+
+    <!-- Função 2 - O(n²) -->
+    <div class="container">
+        <div class="descricao">
+            <h2>Função 2 - O(n²)</h2>
+            <p>Esta função possui dois loops aninhados. O loop externo itera de <span class="variavel">0</span> até <span class="variavel">n - 1</span>, e o loop interno também itera <span class="variavel">n</span> vezes.</p>
+            <p>A cada iteração, uma operação de <span class="conceito">complexidade O(1)</span> é realizada.</p>
+            <p>Como o loop interno é executado <span class="variavel">n</span> vezes para cada iteração do loop externo, a complexidade é <span class="conceito">O(n²)</span>.</p>
+            <div class="codigo">
+                def funcao2(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;for i in range(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for j in range(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Iteração:", i, j)  # O(1) por iteração do loop interno
+            </div>
+        </div>
+        <div class="grafico">
+            <img src="data:image/png;base64,{{ grafico2 }}" alt="Grafico Funcao 2">
+        </div>
+    </div>
+
+    <!-- Função 3 - O(2^n) -->
+    <div class="container">
+        <div class="descricao">
+            <h2>Função 3 - O(2<sup>n</sup>)</h2>
+            <p>Esta função calcula a sequência de Fibonacci de forma recursiva.</p>
+            <p>Cada chamada faz duas novas chamadas recursivas, resultando em uma árvore de chamadas de <span class="conceito">complexidade exponencial</span>.</p>
+            <p>A complexidade final é <span class="conceito">O(2<sup>n</sup>)</span>.</p>
+            <div class="codigo">
+                def funcao3(n):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;if n <= 1:<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return n<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return funcao3(n - 1) + funcao3(n - 2)
+            </div>
+        </div>
+        <div class="grafico">
+            <img src="data:image/png;base64,{{ grafico3 }}" alt="Grafico Funcao 3">
+        </div>
+    </div>
+</body>
+</html>

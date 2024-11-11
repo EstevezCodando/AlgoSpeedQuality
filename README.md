@@ -4,8 +4,8 @@ Este repositório contém exercícios e projetos de implementação e análise d
 
 ## Estrutura do Repositório
 
-- **at1**: Contém exercícios básicos de estruturas de dados e algoritmos, incluindo busca linear, busca binária, Bubble Sort, entre outros. Esses exercícios servem como introdução ao uso de algoritmos para resolver problemas computacionais de forma eficiente.
-- **at2**: Contém soluções e projetos mais avançados que envolvem análise de complexidade, comparação entre tempo e espaço, priorização entre tempo ou espaço, e implementação de estruturas como pilhas, filas e tabelas hash.
+- **TP1**: Contém exercícios básicos de estruturas de dados e algoritmos, incluindo busca linear, busca binária, Bubble Sort, entre outros. Esses exercícios servem como introdução ao uso de algoritmos para resolver problemas computacionais de forma eficiente.
+- **TP2**: Contém soluções e projetos mais avançados que envolvem análise de complexidade, comparação entre tempo e espaço, priorização entre tempo ou espaço, e implementação de estruturas como pilhas, filas e tabelas hash.
 
 ## Como Navegar pelos Exercícios
 
@@ -29,17 +29,10 @@ Cada pasta possui seu próprio `README.md` com uma descrição detalhada dos exe
 ## Requisitos
 
 - **Python 3.x** é necessário para executar os scripts.
-- Bibliotecas adicionais estão listadas nos arquivos `requirements.txt`, caso necessário.
 
 ## Execução
 
 Cada exercício pode ser executado individualmente. Para navegar até um exercício específico, acesse a pasta correspondente e siga as instruções do `README.md` na pasta.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 

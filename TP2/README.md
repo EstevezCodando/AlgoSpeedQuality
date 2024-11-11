@@ -1,4 +1,4 @@
-# Atividade 2: Soluções Avançadas em Estruturas de Dados e Algoritmos
+# Teste de Performance - TP2 Soluções Avançadas em Estruturas de Dados e Algoritmos
 
 Esta pasta contém exercícios avançados e projetos focados em otimização de algoritmos e análise de complexidade. Os exercícios são desenvolvidos para explorar a eficiência e o impacto de diferentes escolhas de algoritmos e estruturas de dados, especialmente em cenários de grandes volumes de dados.
 
